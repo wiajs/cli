@@ -1,0 +1,31 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "wia",
+      "program": "${workspaceFolder}/bin/wia.js",
+      "args": ["-v"]
+      // "args": ["init", "ttt"]
+    },
+
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "copy",
+      "program": "${workspaceFolder}/lib/util/copyPreset.js",
+    },
+
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "create",
+      "program": "${workspaceFolder}\\lib\\create.js",
+      "args": ["test"]
+    }
+  ]
+}
