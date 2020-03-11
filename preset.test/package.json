@@ -1,0 +1,25 @@
+{
+  "name": "wiaspace",
+  "version": "0.1.0",
+  "description": "wia app workspace",
+  "author": "wia pub",
+  "scripts": {
+    "start": "wia start",
+    "build": "wia build",
+    "pub": "wia pub",
+    "lint": "eslint lint",
+    "test:unit": "jest test:unit",
+    "startx": "gulp",
+    "testx": "cross-env NODE_ENV=test gulp --gulpfile gulpfile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "lodash": "^4.17.13"
+  }
+}
